@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Alkalami&display=swap');
+
+*{
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  /* background-color: #fef2c2;    */
+  background-color: #FAF9F6;
+  color:#302005;
+  margin: 0 auto;
+}
+
+article{
+  margin: 0 auto;
+  width: 92%;
+}
+
+footer{
+  margin: 0 auto;
+  width: 92%;
+}
+
+header{
+  margin: 0 auto;
+  width: 100%;
+}
+.description{
+  margin: 0 auto;
+  width: 92%;
+}
+
+
+h1{
+  text-align: center;
+}
+
+img {
+width: 512px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+border: 1px solid #555
+}
+
+
+table {
+border:0.5px solid black;
+background-color: #EDEADE;
+margin-left: auto;
+margin-right: auto;
+}
+
+th, td {
+border:0.5px solid black;
+}
+
+
+figcaption {
+    font-style: italic;
+    padding: 2px;
+    text-align: center;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+nav ul {
+  text-align: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #111;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav li a:hover {
+  background-color: #f1f1f1;
+  color: #111;
+}
+
+#gotop {
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  text-decoration: none;
+  background-color: #111;
+  color: #f1f1f1;
+  padding: 10px;
+  border-radius: 12px;
+  box-shadow: 0 5px #999;
+}
+
+#gotop:hover{
+  background-color: #494949;
+}
+
+#gotop:active{
+  background-color: #494949;
+  box-shadow: 0 3px #666;
+  transform: translateY(2px);
+}
+
+details summary{
+  font-weight: bold;
+  padding: 5px 0;
+}
+
+.clearfix{
+  clear: both;
+}
+
+.figureClass{
+  width: 35%;
+  float: right;
+  margin-right: 50px;
+  margin-top: 70px;
+}
+
+.detailsClass{
+  width: 50%;
+  margin-left: 50px;
+  float: left;
+}
+
+.tableClass{
+  float: right;
+  width: 50%;
+}
+
+.textClass{
+  float: left;
+  width: 50%;
+}
